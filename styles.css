@@ -1,0 +1,14 @@
+body {
+  height: 100svh;
+  margin: 0;
+  font-family: system-ui;
+  display: flex;
+  flex-direction: column;
+  /* global styles, do what I want */
+  > .carousel {
+    flex: 1;
+  }
+  > .dropdown {
+    width: 50%;
+  }
+}

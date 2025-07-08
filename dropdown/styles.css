@@ -1,0 +1,12 @@
+.dropdown > .items.hidden {
+  display: none;
+}
+
+.dropdown > .items {
+  background-color: aquamarine;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}

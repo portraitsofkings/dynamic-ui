@@ -1,0 +1,53 @@
+.carousel {
+  padding: 16px;
+}
+
+.carousel .frame,
+.carousel .slides {
+  height: 100%;
+}
+
+.carousel .slide {
+  background-color: peachpuff;
+  font-size: 3rem;
+  /* height: 300px; */
+  height: 100%;
+  width: 100%;
+  flex-shrink: 0;
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel .slide.active {
+  display: flex;
+}
+
+.carousel .frame {
+  position: relative;
+}
+
+.carousel .previous {
+  position: absolute;
+  top: 50%;
+  margin-left: 16px;
+}
+
+.carousel .next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-right: 16px;
+}
+
+.carousel .dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+
+  transform: translateX(-50%); /* take own width into account */
+}
